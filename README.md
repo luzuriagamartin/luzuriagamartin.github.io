@@ -10,11 +10,9 @@ details{background:#0d0d0d !important;border:1px solid #2a2a2a;border-radius:8px
 summary{cursor:pointer;font-weight:600;color:#fff}
 </style>
 
-# Martín Luzuriaga
+# Power BI Analyst | Data Analyst | Business Intelligence 
 
-**Analista de datos · Buenos Aires, Argentina**
-
-> Soy Martín Luzuriaga, analista de datos. Vengo del desarrollo web y el testing de software, así que entiendo tanto el dato como el sistema que lo produce. Trabajo con Power BI, DAX, SQL y Azure para armar modelos de datos y dashboards claros.
+> Analista de Datos con background en desarrollo Full Stack y QA, lo que aporta una visión técnica integral del ciclo de vida del dato. Experiencia sólida en Power BI, modelado en estrella y DAX, orientado a transformar datos complejos en información clara y accionable que respalde decisiones ejecutivas de alto impacto. 
 
 📧 [luzuriagamartin@gmail.com](mailto:luzuriagamartin@gmail.com) · 💼 [LinkedIn](https://linkedin.com/in/martinluzuriaga/) · 📄 [Descargar CV](https://drive.google.com/file/d/1UebAOJV1STQDloP8v9ARs25yhJROPw8j/view?usp=drive_link)
 
