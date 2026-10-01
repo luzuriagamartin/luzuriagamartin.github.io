@@ -12,7 +12,7 @@ summary{cursor:pointer;font-weight:600;color:#fff}
 
 # Power BI Analyst | Data Analyst | Business Intelligence 
 
-> Analista de Datos con background en desarrollo Full Stack y QA, lo que aporta una visión técnica integral del ciclo de vida del dato. Experiencia sólida en Power BI, modelado en estrella y DAX, orientado a transformar datos complejos en información clara y accionable que respalde decisiones ejecutivas de alto impacto. 
+> Analista de Datos con background en desarrollo Full Stack y QA, lo que aporta una visión técnica integral del ciclo de vida del dato. Experiencia sólida en Power BI, modelado en estrella y DAX, orientado a transformar datos complejos en información clara y accionable que respalde decisiones ejecutivas de alto impacto. Actualmente con residencia en Buenos Aires, Argentina.
 
 📧 [luzuriagamartin@gmail.com](mailto:luzuriagamartin@gmail.com) · 💼 [LinkedIn](https://linkedin.com/in/martinluzuriaga/) · 📄 [Descargar CV](https://drive.google.com/file/d/1UebAOJV1STQDloP8v9ARs25yhJROPw8j/view?usp=drive_link)
 
@@ -64,14 +64,14 @@ summary{cursor:pointer;font-weight:600;color:#fff}
 
 ---
 
-## 🛠️ Herramientas
+## 🛠️ Skills
 
-| Área | Herramientas |
+| Área | Skills |
 |---|---|
-| Análisis y BI | Power BI, DAX, Power Query, Excel avanzado, Looker Studio |
-| Datos y nube | SQL (6 años), Azure (más de 1 año), Microsoft Fabric, Microsoft Access, procesos ETL, gobierno de datos, modelos estadísticos |
-| Desarrollo | React.js, Node.js |
-| Practicando | Python / Pandas (uso no productivo) |
+| Análisis de Datos | Power BI, DAX, Power Query, SQL, Microsoft Fabric, Looker Studio, Tableau, modelado de datos, Procesos ETL, data storytelling, dashboards, Excel |
+| Datos y nube | SQL (6 años), Azure (más de 1 año), Microsoft Fabric, Microsoft Access, gobierno de datos, modelos estadísticos |
+| Desarrollo | React.js, Node.js y Javascript |
+| Metodologías & Gestión | Scrum, metodologías ágiles, Jira, documentación técnica |
 
 ---
 
