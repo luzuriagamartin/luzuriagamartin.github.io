@@ -44,8 +44,27 @@ Reporte de Business Intelligence para una empresa de venta de tecnología, con v
 ## 🎓 Formación y certificaciones
 
 - Diplomatura en Data Analytics y Storytelling, UTN *(en curso)*
-- Certificación Microsoft Power BI, UTN
-- Full Stack Web Development, Digital House
+
+<details markdown="1">
+<summary>Curso de Microsoft Power BI | Universidad Tecnológica Nacional</summary>
+
+<iframe src="certificados/Curso%20Microsoft%20PBI.pdf" width="100%" height="500"></iframe>
+
+[Abrir el certificado en pantalla completa](certificados/Curso%20Microsoft%20PBI.pdf)
+
+</details>
+
+- Gestión Ágil de Proyectos (PMI-ACP) | Universidad Tecnológica Nacional
+
+<details markdown="1">
+<summary>Professional Testing Master | Universidad Tecnológica Nacional</summary>
+
+<iframe src="certificados/Curso%20Professional%20Testing%20Master1.pdf" width="100%" height="500"></iframe>
+
+[Abrir el certificado en pantalla completa](certificados/Curso%20Professional%20Testing%20Master1.pdf)
+
+</details>
+
 
   
 
