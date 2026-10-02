@@ -16,7 +16,6 @@ summary{cursor:pointer;font-weight:600;color:#fff}
 
 📧 [luzuriagamartin@gmail.com](mailto:luzuriagamartin@gmail.com) · 💼 [LinkedIn](https://linkedin.com/in/martinluzuriaga/) · 📄 [Descargar CV](https://drive.google.com/file/d/1UebAOJV1STQDloP8v9ARs25yhJROPw8j/view?usp=drive_link)
 
----
 
 ## 📊 Proyectos
 
@@ -31,7 +30,6 @@ Reporte de Business Intelligence para una empresa de venta de tecnología, con v
 
 </details>
 
----
 
 ## 🛠️ Skills
 
@@ -42,7 +40,6 @@ Reporte de Business Intelligence para una empresa de venta de tecnología, con v
 | Desarrollo | React.js, Node.js y Javascript |
 | Metodologías & Gestión | Scrum, metodologías ágiles, Jira, documentación técnica |
 
----
 
 ## 🎓 Formación y certificaciones
 
