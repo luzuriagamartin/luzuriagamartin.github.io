@@ -54,8 +54,6 @@ Reporte de Business Intelligence para una empresa de venta de tecnología, con v
 
 </details>
 
-- Gestión Ágil de Proyectos (PMI-ACP) | Universidad Tecnológica Nacional
-
 <details markdown="1">
 <summary>Professional Testing Master | Universidad Tecnológica Nacional</summary>
 
