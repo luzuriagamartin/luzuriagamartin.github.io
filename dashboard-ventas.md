@@ -1,7 +1,4 @@
 
-layout: default
-title: Dashboard de Ventas · Martín Luzuriaga
-
 <style>
 html,body,div,main,article,section,header,footer{background:#000 !important;color:#e8e8e8 !important}
 h1,h2,h3,h4{color:#fff !important;border-color:#2a2a2a !important}
