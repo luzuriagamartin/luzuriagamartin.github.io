@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dashboard de Ventas · Martín Luzuriaga
----
+
 <style>
 html,body,div,main,article,section,header,footer{background:#000 !important;color:#e8e8e8 !important}
 h1,h2,h3,h4{color:#fff !important;border-color:#2a2a2a !important}
@@ -17,7 +17,7 @@ img{max-width:100%;border-radius:8px;border:1px solid #2a2a2a}
 
 # Dashboard de Ventas: Resumen Ejecutivo & Análisis Regional
 
----
+
 
 ## 📝 Descripción general
 
@@ -25,7 +25,7 @@ Se desarrolló un reporte de **Business Intelligence** en **Microsoft Power BI**
 
 ![Resumen Ejecutivo](imagenes/resumen-ejecutivo.png)
 
----
+
 
 ## 🎯 Objetivos del proyecto
 
@@ -34,7 +34,7 @@ Se desarrolló un reporte de **Business Intelligence** en **Microsoft Power BI**
 - Permitir un **drill-down** desde la visión nacional hasta el análisis regional (Buenos Aires).
 - Facilitar la navegación entre páginas manteniendo el contexto del usuario.
 
----
+
 
 ## 🛠️ Metodología y proceso
 
@@ -75,7 +75,7 @@ Se desarrolló un reporte de **Business Intelligence** en **Microsoft Power BI**
 
 ![Ventas en Buenos Aires](imagenes/ventas-buenos-aires.png)
 
----
+
 
 ## ✨ Características destacadas del reporte
 
@@ -87,7 +87,7 @@ Se desarrolló un reporte de **Business Intelligence** en **Microsoft Power BI**
 | Segmentación persistente | Los filtros se mantienen al navegar entre páginas |
 | Storytelling visual | Flujo narrativo de lo general a lo particular |
 
----
+
 
 ## 🧰 Stack técnico
 
@@ -98,7 +98,7 @@ Se desarrolló un reporte de **Business Intelligence** en **Microsoft Power BI**
 - **Modelo estrella** (tabla de hechos + dimensiones)
 - **Navegación multi-página** con segmentaciones sincronizadas
 
----
+
 
 ## 🚀 Habilidades demostradas
 
@@ -110,7 +110,7 @@ Se desarrolló un reporte de **Business Intelligence** en **Microsoft Power BI**
 - Storytelling visual: de la visión general al detalle regional.
 - Segmentaciones persistentes y sincronización de filtros.
 
----
+
 
 ## 📌 Resultado
 
@@ -121,6 +121,6 @@ Un reporte de BI de dos niveles que permite a los stakeholders:
 
 La arquitectura del reporte, el modelo de datos y la navegación fueron diseñados para escalar: se pueden agregar nuevas regiones siguiendo el mismo patrón de drill-down.
 
----
+
 
 [← Volver al portafolio](/)
