@@ -36,8 +36,6 @@ tr:last-child td{border-bottom:0 !important}
 <span class="chip">Power BI</span><span class="chip">SQL Server</span><span class="chip">Power Query</span><span class="chip">DAX</span><span class="chip">Modelado de datos</span><span class="chip">Storytelling</span>
 
 <div class="kpis">
-<div class="kpi"><span class="n">131 mill.</span><span class="l">en ventas totales</span></div>
-<div class="kpi"><span class="n">89%</span><span class="l">concentrado en Buenos Aires</span></div>
 <div class="kpi"><span class="n">10</span><span class="l">categorías de producto</span></div>
 <div class="kpi"><span class="n">2</span><span class="l">niveles de análisis</span></div>
 </div>
