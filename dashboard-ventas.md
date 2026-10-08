@@ -13,9 +13,9 @@ a{color:#F2C811 !important}
 hr{display:none}
 img{max-width:100%;border-radius:10px;border:1px solid #2a2a2a;margin:1rem 0}
 blockquote{background:#111 !important;border-left:4px solid #F2C811 !important;color:#e8e8e8 !important;padding:14px 18px;border-radius:0 10px 10px 0;font-size:1.05rem}
-table{border-collapse:separate !important;border-spacing:0;width:100%;border:1px solid #2a2a2a !important;border-radius:10px;overflow:hidden}
+table{display:table !important;width:100% !important;max-width:100% !important;border-collapse:separate !important;border-spacing:0;border:1px solid #2a2a2a !important;border-radius:10px;overflow:hidden}
 th,td{border:0 !important;border-bottom:1px solid #2a2a2a !important;background:#000 !important;padding:10px 14px !important}
-th{background:#F2C811 !important;color:#000 !important}
+th{background:#F2C811 !important;color:#000 !important;text-align:left !important}
 tr:last-child td{border-bottom:0 !important}
 .chip{display:inline-block;background:#1a1a1a !important;color:#F2C811 !important;border:1px solid #333;border-radius:999px;padding:3px 12px;font-size:.85rem;margin:0 6px 8px 0}
 .kpis{display:grid !important;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:1.5rem 0}
@@ -36,6 +36,8 @@ tr:last-child td{border-bottom:0 !important}
 <span class="chip">Power BI</span><span class="chip">SQL Server</span><span class="chip">Power Query</span><span class="chip">DAX</span><span class="chip">Modelado de datos</span><span class="chip">Storytelling</span>
 
 <div class="kpis">
+<div class="kpi"><span class="n">131 mill.</span><span class="l">en ventas totales</span></div>
+<div class="kpi"><span class="n">89%</span><span class="l">concentrado en Buenos Aires</span></div>
 <div class="kpi"><span class="n">10</span><span class="l">categorías de producto</span></div>
 <div class="kpi"><span class="n">2</span><span class="l">niveles de análisis</span></div>
 </div>
@@ -114,13 +116,13 @@ tr:last-child td{border-bottom:0 !important}
 
 ## ✨ Características destacadas del reporte
 
-| Característica | Descripción 
+| Característica | Descripción |
 | --- | --- |
-| Vista nacional | Resumen ejecutivo con KPIs, tendencias y distribución 
-| Drill-down regional | Análisis profundo de Buenos Aires vs. resto del país 
-| Análisis temporal | Desglose por año y trimestre con tabla de fechas dedicada 
-| Segmentación persistente | Los filtros se mantienen al navegar entre páginas 
-| Storytelling visual | Flujo narrativo de lo general a lo particular 
+| Vista nacional | Resumen ejecutivo con KPIs, tendencias y distribución |
+| Drill-down regional | Análisis profundo de Buenos Aires vs. resto del país |
+| Análisis temporal | Desglose por año y trimestre con tabla de fechas dedicada |
+| Segmentación persistente | Los filtros se mantienen al navegar entre páginas |
+| Storytelling visual | Flujo narrativo de lo general a lo particular |
 
 ## 🧰 Stack técnico
 
