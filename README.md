@@ -37,7 +37,7 @@ Reporte de Business Intelligence para una empresa de venta de tecnología, con v
 
 Reporte de Business Intelligence para una empresa de venta de tecnología, con visión ejecutiva y drill-down regional a Buenos Aires.
 
-👉 [Ver el informe completo](dashboard-ventas.html)
+👉 [Ver el informe completo](dashboard-ventas2026.html)
 
 </details>
 
