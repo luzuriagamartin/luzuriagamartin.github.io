@@ -31,7 +31,7 @@ tr:last-child td{border-bottom:0 !important}
 
 [← Volver al portafolio](/)
 
-# Dashboard de Ventas: Análisis Comercial Regional en Sudamérica
+# Dashboard: Empresa comercial durante el 2026
 
 <span class="chip">Power BI</span><span class="chip">Power Query</span><span class="chip">DAX</span><span class="chip">Modelado de datos</span><span class="chip">ETL</span><span class="chip">Storytelling</span>
 
@@ -46,7 +46,7 @@ tr:last-child td{border-bottom:0 !important}
 
 > Desarrollo de un dashboard interactivo en **Microsoft Power BI** para el análisis de ventas de una empresa comercial con presencia en 4 ciudades de Sudamérica. El proyecto transforma datos transaccionales en información accionable, permitiendo identificar tendencias, patrones de consumo y oportunidades de negocio.
 
-![Dashboard de Ventas Sudamérica](imagenes/dashboard-ventas.png)
+![Dashboard de Ventas 2026 - Vista General](imagenes/Dashboard2-01.png)
 
 ## 🎯 Objetivos del proyecto
 
@@ -100,7 +100,7 @@ tr:last-child td{border-bottom:0 !important}
 
 </div>
 
-![Modelo de datos relacional](imagenes/modelo-de-datos.png)
+![Modelo de Datos Relacional](imagenes/Dashboard2-schema.png)
 
 <div class="paso" markdown="1">
 
@@ -116,6 +116,8 @@ tr:last-child td{border-bottom:0 !important}
 
 
 </div>
+
+![Dashboard de Ventas - Filtro Electrónica](imagenes/Dashboard2-02.png)
 
 ## 💡 Hallazgos clave del análisis
 
