@@ -30,6 +30,17 @@ Reporte de Business Intelligence para una empresa de venta de tecnología, con v
 
 </details>
 
+<details markdown="1">
+<summary>Dashboard: Empresa comercial durante el 2026</summary>
+
+`Power BI` `Power Query` `DAX`
+
+Reporte de Business Intelligence para una empresa de venta de tecnología, con visión ejecutiva y drill-down regional a Buenos Aires.
+
+👉 [Ver el informe completo](dashboard-ventas.html)
+
+</details>
+
 
 ## 🛠️ Skills
 
