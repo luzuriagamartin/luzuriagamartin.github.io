@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dashboard de Ventas · Martín Luzuriaga
+title: Dashboard de Ventas Sudamérica · Martín Luzuriaga
 ---
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap');
@@ -31,114 +31,122 @@ tr:last-child td{border-bottom:0 !important}
 
 [← Volver al portafolio](/)
 
-# Dashboard de Ventas: Resumen Ejecutivo & Análisis Regional
+# Dashboard de Ventas: Análisis Comercial Regional en Sudamérica
 
-<span class="chip">Power BI</span><span class="chip">SQL Server</span><span class="chip">Power Query</span><span class="chip">DAX</span><span class="chip">Modelado de datos</span><span class="chip">Storytelling</span>
+<span class="chip">Power BI</span><span class="chip">Power Query</span><span class="chip">DAX</span><span class="chip">Modelado de datos</span><span class="chip">ETL</span><span class="chip">Storytelling</span>
 
 <div class="kpis">
-<div class="kpi"><span class="n">131 mill.</span><span class="l">en ventas totales</span></div>
-<div class="kpi"><span class="n">89%</span><span class="l">concentrado en Buenos Aires</span></div>
-<div class="kpi"><span class="n">10</span><span class="l">categorías de producto</span></div>
-<div class="kpi"><span class="n">2</span><span class="l">niveles de análisis</span></div>
+<div class="kpi"><span class="n">$14.805</span><span class="l">ingresos totales</span></div>
+<div class="kpi"><span class="n">4</span><span class="l">ciudades analizadas</span></div>
+<div class="kpi"><span class="n">45</span><span class="l">transacciones</span></div>
+<div class="kpi"><span class="n">7</span><span class="l">productos clave</span></div>
 </div>
 
 ## 📝 Descripción general
 
-> Se desarrolló un reporte de **Business Intelligence** en **Microsoft Power BI** para centralizar y analizar la información comercial de una empresa de venta de tecnología. El proyecto permite monitorear el desempeño de ventas desde una visión ejecutiva hasta un análisis regional detallado, facilitando la toma de decisiones basada en datos.
+> Desarrollo de un dashboard interactivo en **Microsoft Power BI** para el análisis de ventas de una empresa comercial con presencia en 4 ciudades de Sudamérica. El proyecto transforma datos transaccionales en información accionable, permitiendo identificar tendencias, patrones de consumo y oportunidades de negocio.
 
-![Resumen Ejecutivo](imagenes/resumen-ejecutivo.png)
+![Dashboard de Ventas Sudamérica](imagenes/dashboard-ventas.png)
 
 ## 🎯 Objetivos del proyecto
 
-- Centralizar información comercial dispersa en una **fuente única de verdad**.
-- Monitorear el desempeño de ventas por año, trimestre, canal, categoría y región.
-- Permitir un **drill-down** desde la visión nacional hasta el análisis regional (Buenos Aires).
-- Facilitar la navegación entre páginas manteniendo el contexto del usuario.
+- Consolidar datos dispersos en un **modelo relacional** (3 tablas: Clientes, Productos, Ventas).
+
+- Visualizar **KPIs clave** para la toma de decisiones (ventas totales, ticket promedio, crecimiento, concentración de clientes).
+
+- Detectar **estacionalidad**, productos estrella y ciudades con mayor potencial.
+
+- Facilitar el **análisis dinámico** mediante segmentadores interactivos.
+
 
 ## 🛠️ Metodología y proceso
 
 <div class="paso" markdown="1">
 
-### 1. Fuente de datos
+### 1. Modelado de datos
 
-- Extracción directa desde **base de datos SQL** con información transaccional.
-- Campos clave: productos, categorías, provincias, canales y fechas de transacción.
+- Normalización en 3 tablas relacionadas con claves foráneas (`ID_Cliente`, `ID_Producto`).
 
-</div>
+- Cobertura de **20 clientes**, **7 productos** y **45 transacciones** distribuidas en 8 meses.
 
-<div class="paso" markdown="1">
+- Distribución geográfica intencional: Buenos Aires (40%), Córdoba (25%), Santiago de Chile (20%) y Montevideo (15%).
 
-### 2. ETL con Power Query
-
-- Conexión y extracción de datos desde SQL Server.
-- Limpieza y normalización de campos de producto, categoría y ubicación geográfica.
-- Construcción de una **tabla de fechas** (calendario) para habilitar análisis temporal por trimestre.
 
 </div>
 
 <div class="paso" markdown="1">
 
-### 3. Modelado de datos
+### 2. Limpieza y transformación (Power Query)
 
-- Modelo en **estrella** con tabla de hechos de ventas vinculada a dimensiones:
-    - Producto
-    - Categoría
-    - Provincia
-    - Fecha
-- Optimización del rendimiento de consultas y navegación entre páginas.
+- Corrección de configuración regional (`en-US`) para interpretación correcta de decimales.
 
-</div>
+- Tipificación y validación de columnas (moneda, fecha, enteros).
 
-![Modelo de datos](imagenes/modelo-de-datos.png)
-
-<div class="paso" markdown="1">
-
-### 4. Desarrollo de medidas DAX
-
-- Medida de **venta total** acumulada.
-- **Participación porcentual** por categoría sobre el total.
-- Comparativas segmentadas por **género y categoría** de producto en la vista regional.
-- Medidas con contexto de filtro dinámico para mantener coherencia entre páginas.
 
 </div>
 
 <div class="paso" markdown="1">
 
-### 5. Visualización y storytelling
+### 3. Desarrollo de medidas DAX
 
-- **Resumen Ejecutivo**: visión general de ventas por año/trimestre/canal, top productos, distribución geográfica y por categoría.
-- **Vista Buenos Aires**: drill-down específico con participación sobre el total país, desglose por categoría y género.
-- **Navegación entre páginas** con segmentaciones persistentes para no perder contexto.
+- **Agregación**: `SUM`, `COUNTROWS`, `DISTINCTCOUNT` para KPIs generales.
+
+- **Comparación temporal**: Cálculo de último mes vs. mes anterior utilizando `EDATE`, `FILTER`, `YEAR` y `MONTH`.
+
+- **Ranking y agregados complejos**: Implementación de `TOPN`, `MAXX` y `ADDCOLUMNS`.
+
+- **Formato condicional**: Indicadores con `FORMAT` y `UNICHAR` para alertas y flechas visuales.
+
 
 </div>
 
-![Ventas en Buenos Aires](imagenes/ventas-buenos-aires.png)
+![Modelo de datos relacional](imagenes/modelo-de-datos.png)
 
-## ✨ Características destacadas del reporte
+<div class="paso" markdown="1">
 
-| Característica | Descripción |
+### 4. Visualización y experiencia de usuario
+
+- **Tarjetas KPI** con semáforo de color (verde/rojo según variación mensual).
+
+- **Gráfico de líneas** para evolución mensual con tooltips enriquecidos.
+
+- **Gráfico de barras** para ranking de categorías y **gráfico de anillo** para distribución geográfica.
+
+- **Segmentadores interactivos** para filtrado dinámico por ubicación y categoría.
+
+
+</div>
+
+## 💡 Hallazgos clave del análisis
+
+| Insight / Métrica | Detalle y Oportunidad de Negocio |
 | --- | --- |
-| Vista nacional | Resumen ejecutivo con KPIs, tendencias y distribución |
-| Drill-down regional | Análisis profundo de Buenos Aires vs. resto del país |
-| Análisis temporal | Desglose por año y trimestre con tabla de fechas dedicada |
-| Segmentación persistente | Los filtros se mantienen al navegar entre páginas |
-| Storytelling visual | Flujo narrativo de lo general a lo particular |
+| Dominio de Electrónica | Concentra el **77% de los ingresos** ($11.549 de $14.805) |
+| Liderazgo geográfico | **Buenos Aires** encabeza las ventas con el **48,5%** del total |
+| Valles de demanda | Caídas en **marzo y junio** señalan momentos clave para promociones |
+| Crecimiento de ticket | Ticket promedio creció **+30,9% en agosto vs. julio** (mejor mix de productos) |
+| Concentración de clientes | Dependencia moderada: Top 5 clientes representan el **~41% de ingresos** |
 
 ## 🧰 Stack técnico
 
-<span class="chip">Microsoft Power BI Desktop</span><span class="chip">SQL Server (fuente de datos)</span><span class="chip">Power Query (ETL y transformación)</span><span class="chip">DAX (Data Analysis Expressions)</span><span class="chip">Modelo estrella (hechos + dimensiones)</span><span class="chip">Navegación multi-página con segmentaciones sincronizadas</span>
+<span class="chip">Microsoft Power BI Desktop</span><span class="chip">Power Query (ETL y transformación)</span><span class="chip">DAX (Data Analysis Expressions)</span><span class="chip">Modelo estrella (tablas de hechos y dimensiones)</span><span class="chip">CSV como fuente de datos</span>
 
 ## 🚀 Habilidades demostradas
 
 <div class="dos" markdown="1">
 
-- Conexión y extracción de datos desde bases relacionales (SQL).
-- Diseño de modelos estrella optimizados para BI.
-- Desarrollo de medidas DAX con contexto de filtro avanzado.
-- Construcción de tablas de fechas para análisis temporal.
-- Diseño de experiencia de usuario con navegación entre páginas.
-- Storytelling visual: de la visión general al detalle regional.
-- Segmentaciones persistentes y sincronización de filtros.
+- Modelado de datos relacionales y diseño de esquemas.
+
+- Limpieza, estructuración y transformación de datos en Power Query.
+
+- Desarrollo de medidas DAX avanzadas y time intelligence.
+
+- Diseño de visualizaciones efectivas e interfaces orientadas a decisiones.
+
+- Comunicación visual de insights de negocio y storytelling.
+
+- Configuración de interactividad (tooltips, segmentadores, formato condicional).
+
 
 </div>
 
@@ -146,12 +154,7 @@ tr:last-child td{border-bottom:0 !important}
 
 <div class="res" markdown="1">
 
-Un reporte de BI de dos niveles que permite a los stakeholders:
-
-1. **Entender el panorama general** del negocio (Resumen Ejecutivo).
-2. **Profundizar en el mercado clave** (Buenos Aires) sin perder el contexto nacional.
-
-La arquitectura del reporte, el modelo de datos y la navegación fueron diseñados para escalar: se pueden agregar nuevas regiones siguiendo el mismo patrón de drill-down.
+Un dashboard funcional, estético y accionable que permite al usuario explorar el negocio desde múltiples ángulos (tiempo, geografía, categoría, producto) y tomar decisiones estratégicas basadas en datos reales.
 
 </div>
 
